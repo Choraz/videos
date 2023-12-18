@@ -7,13 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-hbsir = {git = "https://github.com/Iran-Open-Data/HBSIR.git"}
-matplotlib = "^3.8.0"
-openpyxl = "^3.1.2"
+hbsir = "0.4.0"
+matplotlib = "*"
+openpyxl = "*"
 
 
 [tool.poetry.group.dev.dependencies]
-ipykernel = "^6.26.0"
+ipykernel = "*"
 
 [build-system]
 requires = ["poetry-core"]
